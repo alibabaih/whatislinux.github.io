@@ -1,0 +1,15 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
+<header>
+<h1 class="hidden">{{ .Title }}</h1>
+<p>
+{{ partial "author-date" . }}
+</p>
+</header>
+<div class="content">
+{{ .Content }}
+</div>
+</article>
+</main>
+{{ end }}

@@ -1,0 +1,76 @@
+{{ $alt := .Get "alt" -}}
+{{ $attr := .Get "attr" -}}
+{{ $attrlink := .Get "attrlink" -}}
+{{ $caption := .Get "caption" -}}
+{{ $class := .Get "class" -}}
+{{ $height := .Get "height" -}}
+{{ $link := .Get "link" -}}
+{{ $size := .Get "size" -}}
+{{ $src := .Get "src" -}}
+{{ $srcset := .Get "srcset" -}}
+{{ $srcsetw := (slice) }}
+{{ $title := .Get "title" -}}
+{{ $width := .Get "width" -}}
+{{ $maxwidth := site.Params.imageMaxWidth -}}
+{{ $realwidth := 0 -}}
+{{ $realheight := 0 -}}
+{{ if and $src (fileExists (add "/assets" $src)) -}}
+  {{ $original := resources.Get $src -}}
+  {{ if $size -}}
+    {{ $image := $original.Resize $size -}}
+    {{ $src = $image.RelPermalink -}}
+    {{ $width = $image.Width -}}
+    {{ $height = $image.Height -}}
+  {{ else -}}
+    {{ $src = $original.RelPermalink -}}
+    {{ $realwidth = $original.Width -}}
+    {{ $realheight = $original.Height -}}
+  {{ end -}}
+  {{ if $srcset -}}
+    {{ range $set := split $srcset " " -}}
+      {{ $image := $original.Resize (printf "%sx" $set) -}}
+      {{ $srcsetw = $srcsetw | append (printf "%s %sw" $image.RelPermalink $set) }}
+    {{ end }}
+    {{ $width = "" -}}
+    {{ $height = "" -}}
+  {{ end -}}
+{{ else if and $src (fileExists (add "/static" $src)) -}}
+  {{ with (imageConfig (add "/static" $src)) -}}
+    {{ $realwidth = .Width -}}
+    {{ $realheight = .Height -}}
+  {{ end -}}
+{{ end -}}
+{{ if and $width $height -}}
+    {{ $width = int $width -}}
+    {{ $height = int $height -}}
+{{ else if $width -}}
+  {{ $width = int $width -}}
+  {{ $height = $realheight -}}
+  {{ if and ($realwidth) (lt ($width) ($realwidth)) -}}
+    {{ $height = (mul ($realheight) (div (add ($width) 0.0) ($realwidth))) -}}
+    {{ $height = (math.Round $height) -}}
+  {{ end -}}
+{{ else if $height -}}
+  {{ $width = $realwidth -}}
+  {{ $height = int $height -}}
+  {{ if and ($realheight) (lt ($height) ($realheight)) -}}
+    {{ $width = (mul ($realwidth) (div (add ($height) 0.0) ($realheight))) -}}
+    {{ $width = (math.Round $width) -}}
+  {{ end -}}
+{{ else if and ($maxwidth) (lt ($maxwidth) ($realwidth)) -}}
+  {{ $width = ($maxwidth) -}}
+  {{ $height = (mul ($realheight) (div (add ($width) 0.0) ($realwidth))) -}}
+  {{ $height = (math.Round $height) -}}
+{{ end -}}
+<figure class="image{{ with $class }} {{ . }}{{ end }}">
+{{ with $link }}<a href="{{ . }}">{{ end -}}
+<img src="{{ $src }}"{{ with $srcsetw }} srcset="{{ delimit  .  ", " }}"{{ end }}{{ with $alt }} alt="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }}>
+{{- if $link }}</a>{{ end }}
+{{ if or $title $caption $attr -}}
+<figcaption>
+{{ with $title }}<h4>{{ . }}</h4>{{ end -}}
+{{- $caption | markdownify }}{{ if and $caption $attr }} {{ end -}}
+{{ with $attrlink }}<a href="{{ . }}">{{ end }}{{ $attr | markdownify }}{{ if $attrlink }}</a>{{ end -}}
+</figcaption>
+{{ end -}}
+</figure>
