@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>SiteTitle</title>
     <link>https://whatislinux.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on SiteTitle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 17 Feb 2022 19:01:09 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <lastBuildDate>Thu, 17 Feb 2022 19:48:31 +0000</lastBuildDate>
     <atom:link href="https://whatislinux.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Audio post</title>
+      <link>https://whatislinux.github.io/posts/audio-post/</link>
+      <pubDate>Thu, 17 Feb 2022 19:48:31 +0000</pubDate>
+      <guid>https://whatislinux.github.io/posts/audio-post/</guid>
+      <description>&lt;p&gt;Bla
+&lt;figure class=&#34;something&#34;&gt;
+&lt;audio controls preload=&#34;metadata&#34;&gt;
+&lt;source src=&#34;https://whatislinux.github.io/audio/1-linux.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://whatislinux.github.io/posts/2/</link>
+      <pubDate>Thu, 17 Feb 2022 19:46:36 +0000</pubDate>
+      <guid>https://whatislinux.github.io/posts/2/</guid>
+      <description>&lt;p&gt;Content&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>1</title>
