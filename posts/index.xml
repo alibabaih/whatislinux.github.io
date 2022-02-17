@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://whatislinux.github.io/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Feb 2022 19:01:09 +0000</lastBuildDate>
+    <atom:link href="https://whatislinux.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1</title>
+      <link>https://whatislinux.github.io/posts/1/</link>
+      <pubDate>Thu, 17 Feb 2022 19:01:09 +0000</pubDate>
+      <guid>https://whatislinux.github.io/posts/1/</guid>
+      <description>&lt;p&gt;Content&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
