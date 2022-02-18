@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Make the Web Fun Again on Что такое Linux",
+    "description": "Recent content in Make the Web Fun Again on Что такое Linux",
+    "home_page_url": "https://alibabaih.github.io/whatislinux.github.io/",
+    "feed_url": "https://alibabaih.github.io/whatislinux.github.io/index.json",
+    "language": "en-GB",
+    "items": [
+        {
+            "title": "Audio post",
+            "date_published": "2022-02-17T19:48:31Z",
+            "date_modified": "2022-02-17T19:48:31Z",
+            "id": "https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post-copy/",
+            "url": "https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post-copy/",
+            "content_html": "\u003cp\u003eBla\u003c/p\u003e\n\u003c!-- raw HTML omitted --\u003e\n\u003cp\u003ecsdvsdvsfsfgs\ndsdfg\nsd\nfg\nsdfgsdfgsdfg\nsdf\nga\nsfga\nsfg\na\nsga\nsf\ng\nasfd\ng\ns\ndf\ng\na\nsf\ng\nas\u003c/p\u003e\n"
+        },
+        {
+            "title": "Audio post",
+            "date_published": "2022-02-17T19:48:31Z",
+            "date_modified": "2022-02-17T19:48:31Z",
+            "id": "https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post/",
+            "url": "https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post/",
+            "content_html": "\u003cp\u003eBla\u003c/p\u003e\n\u003c!-- raw HTML omitted --\u003e\n\u003cp\u003ecsdvsdvsfsfgs\ndsdfg\nsd\nfg\nsdfgsdfgsdfg\nsdf\nga\nsfga\nsfg\na\nsga\nsf\ng\nasfd\ng\ns\ndf\ng\na\nsf\ng\nas\u003c/p\u003e\n"
+        }
+        ]
+}
