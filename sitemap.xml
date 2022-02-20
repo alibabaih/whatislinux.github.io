@@ -2,20 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post-copy/</loc>
+    <loc>https://whatislinux.digital/</loc>
     <lastmod>2022-02-17T19:48:31+00:00</lastmod>
   </url><url>
-    <loc>https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post/</loc>
+    <loc>https://whatislinux.digital/podcasts/1/</loc>
     <lastmod>2022-02-17T19:48:31+00:00</lastmod>
   </url><url>
-    <loc>https://alibabaih.github.io/whatislinux.github.io/</loc>
+    <loc>https://whatislinux.digital/podcasts/</loc>
     <lastmod>2022-02-17T19:48:31+00:00</lastmod>
   </url><url>
-    <loc>https://alibabaih.github.io/whatislinux.github.io/podcasts/</loc>
-    <lastmod>2022-02-17T19:48:31+00:00</lastmod>
+    <loc>https://whatislinux.digital/categories/</loc>
   </url><url>
-    <loc>https://alibabaih.github.io/whatislinux.github.io/categories/</loc>
+    <loc>https://whatislinux.digital/tags/</loc>
   </url><url>
-    <loc>https://alibabaih.github.io/whatislinux.github.io/tags/</loc>
+    <loc>https://whatislinux.digital/about/</loc>
   </url>
 </urlset>

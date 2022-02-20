@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Что такое Linux</title>
-    <link>https://alibabaih.github.io/whatislinux.github.io/tags/</link>
+    <link>https://whatislinux.digital/tags/</link>
     <description>Recent content in Tags on Что такое Linux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
-    <atom:link href="https://alibabaih.github.io/whatislinux.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://whatislinux.digital/tags/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

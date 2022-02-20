@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Что такое Linux</title>
-    <link>https://alibabaih.github.io/whatislinux.github.io/podcasts/</link>
+    <link>https://whatislinux.digital/podcasts/</link>
     <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
@@ -24,78 +24,14 @@
     <itunes:explicit>false</itunes:explicit>
     
     <item>
-      <title>Audio post</title>
-      <itunes:title>Audio post</itunes:title>
-      <link>https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post-copy/</link>
-      <guid>https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post-copy/</guid>
+      <title>#1 Start</title>
+      <itunes:title>#1 Start</itunes:title>
+      <link>https://whatislinux.digital/podcasts/1/</link>
+      <guid>https://whatislinux.digital/podcasts/1/</guid>
       <pubDate>Thu, 17 Feb 2022 19:48:31 +0000</pubDate>
-      <description>&lt;p&gt;Bla&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;csdvsdvsfsfgs
-dsdfg
-sd
-fg
-sdfgsdfgsdfg
-sdf
-ga
-sfga
-sfg
-a
-sga
-sf
-g
-asfd
-g
-s
-df
-g
-a
-sf
-g
-as&lt;/p&gt;
+      <description>&lt;!-- raw HTML omitted --&gt;
 </description>
-      <enclosure url="https://alibabaih.github.io/whatislinux.github.io/audio/1-linux.mp3" type="audio/mpeg" />
-      <itunes:duration>02:36</itunes:duration>
-      
-      
-      
-      
-      
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    
-    <item>
-      <title>Audio post</title>
-      <itunes:title>Audio post</itunes:title>
-      <link>https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post/</link>
-      <guid>https://alibabaih.github.io/whatislinux.github.io/podcasts/audio-post/</guid>
-      <pubDate>Thu, 17 Feb 2022 19:48:31 +0000</pubDate>
-      <description>&lt;p&gt;Bla&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;csdvsdvsfsfgs
-dsdfg
-sd
-fg
-sdfgsdfgsdfg
-sdf
-ga
-sfga
-sfg
-a
-sga
-sf
-g
-asfd
-g
-s
-df
-g
-a
-sf
-g
-as&lt;/p&gt;
-</description>
-      <enclosure url="https://alibabaih.github.io/whatislinux.github.io/audio/1-linux.mp3" type="audio/mpeg" />
+      <enclosure url="https://storage.yandexcloud.net/whatislinux/1-linux.mp3" type="audio/mpeg" />
       <itunes:duration>02:36</itunes:duration>
       
       
