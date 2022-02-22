@@ -47,12 +47,13 @@ efwef&lt;/p&gt;
     </item>
     
     <item>
-      <title>О нас</title>
-      <itunes:title>О нас</itunes:title>
+      <title>О проекте</title>
+      <itunes:title>О проекте</itunes:title>
       <link>https://whatislinux.digital/about/</link>
       <guid>https://whatislinux.digital/about/</guid>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;Telegram @whatislinux&lt;/p&gt;
+      <description>&lt;p&gt;Просто рассказываем про операционную систему Linux, и все сервисы, которые могут быть развёрнуты на данной операционной системе.&lt;/p&gt;
+&lt;p&gt;Telegram @whatislinux&lt;/p&gt;
 </description>
       
       
